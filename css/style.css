@@ -58,23 +58,14 @@ body {
   text-shadow: 1px 1px 1px #222;
 }
 
-
 .navbar-brand a:hover, .navbar-brand a:focus {
   text-decoration: none;
 }
 
-
-.navbar-brand p { /* office details */
-  color: #000;
-  font-size: .8em;
-  margin-top: 15px;
-  /*vertical-align: middle;*/
-}
-
-
 .navbar-header button.navbar-toggle, .navbar-header .icon-bar {
   border: 1px solid #61122f;
 }
+
 .navbar-header button.navbar-toggle {
   clear: both;
   margin-top: 50px;
@@ -83,18 +74,26 @@ body {
 
 
 #main-content a {
-  color: lightblue; /* # f5f2d0 lightblue */
+  color: lightgreen; /* #f5f2d0 lightblue lightgreen */
   }
 
+.about h2 {
+  margin-top: 5px;
+  margin-bottom: -12px;
+  font-size: 2em;
+  font-weight: bold;
+}
 
 .about {
-margin-bottom: 50px;
+margin-bottom: 30px;
 }
 
-.poster-title {
-  font-size: 1.1em;
-  text-align: left;
+#description {
+  margin-bottom: 30px;
+  text-align: justify;
+  font-size: 1.15em;
 }
+
 
 #created-by {
   text-align: center;
@@ -110,10 +109,21 @@ th, td {
   padding: 5px 10px 5px 10px;
 }
 
+#th-title {
+  font-size: 1.4em;
+}
+
 th, tr {
   text-align: center;
 }
 
+td {
+  font-size: 1.1em;
+}
+
+.poster-title {
+  text-align: justify;
+}
 
 /* END BODY PAGE */
 
@@ -169,14 +179,17 @@ th, tr {
     padding: 0;
   }
 
-  .about h2,  {
-	font-size: 1.5em;
+  .about h2 {
+	font-size: 1.6em;
   }
 
   .about h3 {
   font-size: 1.3em;
   }
 
+  #th-title {
+    font-size: 1.1em;
+  }
  
 }
 
@@ -186,7 +199,7 @@ th, tr {
 
   .navbar-brand {
     padding-top: 0px;
-    height: 75px;
+    height: 80px;
   }
 
   .navbar-brand h1 { /* Name */
@@ -194,7 +207,7 @@ th, tr {
   }
 
   .about h2 {
-	font-size: 1.4em;
+	font-size: 1.3em;
   }
 
   .about h3 {
